@@ -6,10 +6,21 @@ public class 找到两个单链表相交的起始节点 {
         ListNode nodeB = GeneratorNode.getListNode(3, 2, 4);
         ListNode n = new Solution().getIntersectionNode2(nodeA, nodeB);
 
-        System.out.println(n.toString());
+        // 测试不准确。。。跟leetcode输入参数有关
+        System.out.println(n == null ? "null" : n.toString());
     }
 
     private static class Solution {
+
+
+        /**
+         * 执行用时： 1 ms , 在所有 Java 提交中击败了 100.00% 的用户
+         * 内存消耗： 41.2 MB , 在所有 Java 提交中击败了 95.29% 的用户
+         *
+         * @param headA
+         * @param headB
+         * @return
+         */
         public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
             int aLen = getLength(headA);
             int bLen = getLength(headB);
@@ -39,6 +50,14 @@ public class 找到两个单链表相交的起始节点 {
         }
 
 
+        /**
+         * 执行用时： 1 ms , 在所有 Java 提交中击败了 100.00% 的用户
+         * 内存消耗： 41.1 MB , 在所有 Java 提交中击败了 97.06% 的用户
+         *
+         * @param headA
+         * @param headB
+         * @return
+         */
         public ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
 
             ListNode pA = headA;
@@ -50,7 +69,10 @@ public class 找到两个单链表相交的起始节点 {
                 else pA = headB;
 
                 if (pB != null) pB = pB.next;
-                else pB = pA;
+                else pB = headA;
+
+                System.out.println("pA ==== " + pA);
+                System.out.println("pB ==== " + pB);
             }
 
             return pA;
