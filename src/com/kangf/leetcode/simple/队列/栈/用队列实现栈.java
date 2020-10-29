@@ -2,7 +2,6 @@ package com.kangf.leetcode.simple.队列.栈;
 
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.List;
 
 /**
  * 225. 用队列实现栈
