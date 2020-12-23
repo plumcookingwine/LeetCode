@@ -28,6 +28,7 @@ public class 合并两个排序的链表 {
     }
 
     private static class Solution {
+
         public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 
             ListNode node = new ListNode(-1);
