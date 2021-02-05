@@ -1,5 +1,8 @@
 package com.kangf.leetcode.simple.链表;
 
+import com.kangf.leetcode.GeneratorNode;
+import com.kangf.leetcode.ListNode;
+
 /**
  * 剑指 Offer 25. 合并两个排序的链表
  * <p>

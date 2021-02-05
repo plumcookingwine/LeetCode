@@ -1,12 +1,12 @@
-package com.kangf.leetcode.simple.链表;
+package com.kangf.leetcode;
 
 public class ListNode {
 
-    int val;
+    public int val;
 
-    ListNode next;
+    public ListNode next;
 
-    ListNode(int x) {
+    public ListNode(int x) {
         val = x;
     }
 

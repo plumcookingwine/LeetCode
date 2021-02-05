@@ -1,5 +1,8 @@
 package com.kangf.leetcode.simple.链表;
 
+import com.kangf.leetcode.GeneratorNode;
+import com.kangf.leetcode.ListNode;
+
 public class 反转链表 {
     public static void main(String[] args) {
 

@@ -1,5 +1,8 @@
 package com.kangf.leetcode.simple.链表;
 
+import com.kangf.leetcode.GeneratorNode;
+import com.kangf.leetcode.ListNode;
+
 public class 找到两个单链表相交的起始节点 {
     public static void main(String[] args) {
         ListNode nodeA = GeneratorNode.getListNode(0, 9, 1, 2, 4);

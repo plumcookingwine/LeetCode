@@ -1,8 +1,7 @@
 package com.kangf.leetcode.simple.链表;
 
-import com.kangf.leetcode.simple.树.GeneratorTreeNode;
-
-import java.util.List;
+import com.kangf.leetcode.GeneratorNode;
+import com.kangf.leetcode.ListNode;
 
 /**
  * 92. 反转链表 II

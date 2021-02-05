@@ -1,5 +1,8 @@
 package com.kangf.leetcode.simple.链表;
 
+import com.kangf.leetcode.GeneratorNode;
+import com.kangf.leetcode.ListNode;
+
 /**
  * 给定一个链表，判断链表中是否有环。
  * <p>

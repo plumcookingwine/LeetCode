@@ -1,4 +1,4 @@
-package com.kangf.leetcode.simple.链表;
+package com.kangf.leetcode;
 
 /**
  * 为了方便测试，
