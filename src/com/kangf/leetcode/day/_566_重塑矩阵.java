@@ -1,6 +1,5 @@
 package com.kangf.leetcode.day;
 
-import java.util.Arrays;
 
 /**
  * 566. 重塑矩阵
